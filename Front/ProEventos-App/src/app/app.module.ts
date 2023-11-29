@@ -20,7 +20,14 @@ import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { ContatosComponent } from './components/contatos/contatos.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { PerfilComponent } from './components/perfil/perfil.component';
+
+import { EventoDetalheComponent } from './components/eventos/evento-detalhe/evento-detalhe.component';
+import { EventoListaComponent } from './components/eventos/evento-lista/evento-lista.component';
+import { UserComponent } from './components/user/user.component';
+import { RegistrationComponent } from './components/user/registration/registration.component';
+import { PerfilComponent } from './components/user/perfil/perfil.component';
+
+
 
 
 
@@ -34,8 +41,12 @@ import { PerfilComponent } from './components/perfil/perfil.component';
       TitleComponent,
       ContatosComponent,
       DashboardComponent,
+      EventoDetalheComponent,
+      EventoListaComponent,
+      UserComponent,
+      RegistrationComponent,
       PerfilComponent
-    
+
    ],
   imports: [
     BrowserModule,
